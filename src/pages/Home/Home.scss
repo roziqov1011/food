@@ -1,0 +1,17 @@
+@import '../../assets/scss/varabels.scss';
+
+.home {
+    height: 100%;
+    display: flex;
+
+    &__content {
+        flex-grow: 2;
+        padding: 24px;
+    }
+
+    &__order {
+        max-width: 410px;
+        background-color: $dark-color;
+        padding: 24px;
+    }
+}
